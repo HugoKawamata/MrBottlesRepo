@@ -1,12 +1,14 @@
 body {
-	background-image:"images/background.jpg";
-	font-family:Tahoma, sans-serif;
+	background-image:url("../images/background.jpg");
+	background-size:cover;
+	font-family:calibri, sans-serif;
 }
 
 /*General globally used styling*/
 
 #content {
 	background-color:#ffffff;
+	margin:30px 200px;
 }
 
 .right_image {
@@ -19,14 +21,41 @@ body {
 	position:relative;
 }
 
+footer {
+	padding:20px 30px;
+	background-color:#697c52;
+}
+
+#footer_logo {
+	float:left;
+}
+
+#footer_content {
+	text-align:right;
+	position:relative;
+}
+
+#footer_content p {
+	margin:5px;
+}
+
 /*Styling for navigation bar*/
 #navbar {
 	background-color:#697c52;
+	padding:2px 0px;
+}
+
+#navbar ul{
+	text-align:center;
+	background-color:#697c52;
+	border:1px solid #ffffff;
+	margin:0px;
+	padding:0px;
 }
 
 #navbar li {
 	display:inline-block;
-	margin:5px 15px 5px 15px;
+	margin:5px 20px;
 	text-transform:uppercase;
 	font-weight:bold;
 	color:#ffffff;
