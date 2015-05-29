@@ -5,6 +5,10 @@ body {
 
 /*General globally used styling*/
 
+#content {
+	background-color:#ffffff;
+}
+
 .right_image {
 	float:right;
 	position:relative;
@@ -16,7 +20,14 @@ body {
 }
 
 /*Styling for navigation bar*/
+#navbar {
+	background-color:#697c52;
+}
+
 #navbar li {
 	display:inline-block;
 	margin:5px 15px 5px 15px;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#ffffff;
 }
