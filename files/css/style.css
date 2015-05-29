@@ -1,3 +1,22 @@
-html {
-	font-family: 
+body {
+	background-image:"images/background.jpg";
+	font-family:Tahoma, sans-serif;
+}
+
+/*General globally used styling*/
+
+.right_image {
+	float:right;
+	position:relative;
+}
+
+.left_image {
+	float:left;
+	position:relative;
+}
+
+/*Styling for navigation bar*/
+#navbar li {
+	display:inline-block;
+	margin:5px 15px 5px 15px;
 }
