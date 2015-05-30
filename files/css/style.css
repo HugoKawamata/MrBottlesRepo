@@ -1,4 +1,5 @@
 body {
+	background-color:#77bb77;
 	background-image:url("../images/background.jpg");
 	background-size:cover;
 	font-family:calibri, sans-serif;
@@ -6,9 +7,27 @@ body {
 
 /*General globally used styling*/
 
+h1{
+	font-size:30px;
+	font-weight:bold;
+	color:#697c52;
+}
+
+h2{
+	font-size:24px;
+	font-weight:bold;
+	color:#697c52;
+}
+
+h3{
+	font-size:18px;
+	font-weight:bold;
+	color:#697c52;
+}
+
 #content {
-	background-color:#ffffff;
-	margin:30px 200px;
+	background-color:rgba(255,255,255,1);
+	margin:30px 250px;
 }
 
 .right_image {
@@ -37,6 +56,8 @@ footer {
 
 #footer_content p {
 	margin:5px;
+	font-size:14px;
+	font-weight:bold;
 }
 
 /*Styling for navigation bar*/
@@ -59,9 +80,15 @@ footer {
 	text-transform:uppercase;
 	font-weight:bold;
 	color:#ffffff;
+	font-size:20px;
 }
 
 #navbar a {
 	text-decoration:none;
 	color:#ffffff;
+}
+
+/*Styling for home page*/
+#main_body{
+	padding:10px 40px;
 }
