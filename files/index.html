@@ -4,7 +4,7 @@
 		<meta charset='utf-8' />
 		<title>Mr Bottles | Antique Bottle Collectors' Resource</title>
 		<link type="text/css" rel="stylesheet" href="css/style.css" />
-		<script type="text/javascript" src="js/jquery-1.11.2.min"></script>
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 		<script type="text/javascript" src="js/site.js"></script>
 	</head>
 	<body>		
@@ -16,10 +16,30 @@
 				<ul>
 					<!--a tags are outside li tags so that the entire div is clickable, rather than just the text-->
 					<a href="index.html"><li>Home</li></a>
-					<a href="services.html"><li>Services</li></a>
+					<!--Services has an expanded section(see javascript)-->
+					<a href="services.html"><li id="services">Services
+						<ul id="services_expanded" class="expanded_nav">
+							<a href="appraisals.html"><li>Appraisals</li></a>
+							<a href="cleaning.html"><li>Bottle Cleaning</li></a>
+							<a href="wishlist.html"><li>Wishlist Trading</li></a>
+						</ul>
+					</li></a>
 					<a href="http://www.mrbottles.com/FORUM/default.asp"><li>Forum</li></a>
-					<a href="community.html"><li>Community</li></a>
-					<a href="gallery.html"><li>Gallery</li></a>
+					<!--Community also expands on mouseover-->
+					<a href="community.html"><li id="community">Community
+						<ul id="community_expanded" class="expanded_nav">
+							<a href="events.html"><li>Events</li></a>
+							<a href="bottleclub.html"><li>Bottle Club</li></a>
+							<a href="articles.html"><li>Articles</li></a>
+							<a href="thehunt.html"><li>The Hunt</li></a>
+						</ul>
+					</li></a>
+					<!--Gallery also expands on mouseover-->
+					<a href="gallery.html"><li id="gallery">Gallery
+						<ul id="gallery_expanded" class="expanded_nav">
+							<a href="halloffame.html"><li>Hall of Fame</li></a>
+						</ul>	
+					</li></a>
 					<a href="faq.html"><li>FAQs</li></a>
 					<a href="contact.html"><li>Contact</li></a>
 				</ul>
@@ -32,7 +52,7 @@
 			</div>
 			<footer>
 				<div id="footer_logo">
-					<img src="images/footer_logo.jpg" />
+					<img src="images/footer_logo.jpg" alt="Footer Logo"/>
 				</div>
 				<div id="footer_content">
 					<p>Phone: 555 HOTMEMES</p>

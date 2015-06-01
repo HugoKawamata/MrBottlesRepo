@@ -88,6 +88,9 @@ footer {
 	color:#ffffff;
 }
 
+.expanded_nav{
+	position:absolute;
+}
 /*Styling for home page*/
 #main_body{
 	padding:10px 40px;
