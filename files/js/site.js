@@ -4,6 +4,10 @@ $(document).ready(function(){
 	$("#community_expanded").hide()
 	$("#gallery_expanded").hide(); //hide expanded navigation sections on page load
 	
+	$(".slider").unslider({
+		dots:true,
+	}); //The unslider banner plugin
+	
 //The following are 3 functions which hide and show different navigation sections
 	var countdownServices;
 	function hideExpandedServices() {

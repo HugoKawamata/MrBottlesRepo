@@ -95,3 +95,28 @@ footer {
 #main_body{
 	padding:10px 40px;
 }
+
+.slider{
+	position:relative;
+	overflow:auto;
+	box-shadow:10px #888888;
+}
+.slider li{
+	list-style:none;
+	line-height:200px;
+}
+.slider ul li{
+	float:left;
+	height:auto;
+	text-align:center;
+}
+.slider ul{
+	padding:0px;
+}
+.slider p{
+	font-size:30px;
+}
+.slide1{
+	background-image:url("../images/slider1.jpg");
+	background-size:cover;
+}
